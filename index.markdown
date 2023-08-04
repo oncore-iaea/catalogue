@@ -10,10 +10,8 @@ layout: default
 {% for item in site.data.catalogue %}
 {% if item.tags contains "data" %}
 {% assign data = data | push: item %}
-{{ data }}
 {% else %}
 {% assign codes = codes | push: item %}
-{{ codes }}
 {% endif %}
 {% endfor %}
 
