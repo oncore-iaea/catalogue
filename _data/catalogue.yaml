@@ -1,0 +1,35 @@
+- name: Dragon
+  description: >
+    Deterministic reactor physics platform including a lattice code, full-core flux
+    solvers, and a full-core operation analysis tool.
+  links: 
+    - name: Home
+      url: https://www.polymtl.ca/merlin/version5.htm
+  license: GNU LGPL
+  tags:
+    - neutronics
+- name: FRENDY
+  description: >
+    Nuclear data processing
+  links: 
+    - name: Home
+      url: https://rpg.jaea.go.jp/main/en/program_frendy/
+  license: 2-clause BSD
+  tags:
+    - nuclear data
+- name: NJOY
+  description: >
+    Nuclear data processing
+  links: 
+    - name: Home
+      url: https://docs.njoy21.io/install.html
+  license: 3-clause BSD
+  tags:
+    - nuclear data
+- name: Test Open Data
+  description: >
+    Test for where open data can go
+  links: 
+  license: 3-clause BSD
+  tags:
+    - data
